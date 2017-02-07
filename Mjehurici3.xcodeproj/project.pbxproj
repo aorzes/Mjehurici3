@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0806191E47415300751355 /* Bubble.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0806181E47415300751355 /* Bubble.m */; };
+		EC08061B1E47427A00751355 /* mjehuric.png in Resources */ = {isa = PBXBuildFile; fileRef = EC08061A1E47427A00751355 /* mjehuric.png */; };
+		EC08061E1E47838500751355 /* UdarniVal.m in Sources */ = {isa = PBXBuildFile; fileRef = EC08061D1E47838500751355 /* UdarniVal.m */; };
+		EC0806201E478B9A00751355 /* aura0.png in Resources */ = {isa = PBXBuildFile; fileRef = EC08061F1E478B9A00751355 /* aura0.png */; };
+		EC0806321E47C2A300751355 /* riba.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0806311E47C2A300751355 /* riba.png */; };
+		EC0806341E47C64900751355 /* bublle.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0806331E47C64900751355 /* bublle.png */; };
+		EC0806371E47CB0400751355 /* Riba.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0806361E47CB0400751355 /* Riba.m */; };
+		EC0AF5291E4A22C700550FAD /* Mjehuric.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0AF5261E4A22C700550FAD /* Mjehuric.m */; };
+		EC0AF52A1E4A22C700550FAD /* IzvorMjehurica.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0AF5281E4A22C700550FAD /* IzvorMjehurica.m */; };
+		EC0AF52D1E4A22DE00550FAD /* Svjetlo.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0AF52C1E4A22DE00550FAD /* Svjetlo.m */; };
+		EC0AF5331E4A260800550FAD /* zrakaSvjetla.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0AF5321E4A260800550FAD /* zrakaSvjetla.png */; };
+		EC0AF5371E4A2B2700550FAD /* podmorje.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0AF5361E4A2B2700550FAD /* podmorje.png */; };
 		EC14F9491E46803E00B8F3F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14F9481E46803E00B8F3F1 /* main.m */; };
 		EC14F94C1E46803E00B8F3F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14F94B1E46803E00B8F3F1 /* AppDelegate.m */; };
 		EC14F94E1E46803E00B8F3F1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC14F94D1E46803E00B8F3F1 /* GameScene.sks */; };
@@ -16,9 +28,31 @@
 		EC14F9591E46803E00B8F3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC14F9571E46803E00B8F3F1 /* Main.storyboard */; };
 		EC14F95B1E46803E00B8F3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC14F95A1E46803E00B8F3F1 /* Assets.xcassets */; };
 		EC14F95E1E46803E00B8F3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC14F95C1E46803E00B8F3F1 /* LaunchScreen.storyboard */; };
+		EC200DFC1E49CD9700FD43CF /* riba1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC200DF91E49CD9700FD43CF /* riba1.png */; };
+		EC200DFD1E49CD9700FD43CF /* riba2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC200DFA1E49CD9700FD43CF /* riba2.png */; };
+		EC200DFE1E49CD9800FD43CF /* riba3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC200DFB1E49CD9700FD43CF /* riba3.png */; };
+		EC200E001E49DA6900FD43CF /* plop2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC200DFF1E49DA6900FD43CF /* plop2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC0806171E47415300751355 /* Bubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bubble.h; sourceTree = "<group>"; };
+		EC0806181E47415300751355 /* Bubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bubble.m; sourceTree = "<group>"; };
+		EC08061A1E47427A00751355 /* mjehuric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehuric.png; sourceTree = "<group>"; };
+		EC08061C1E47838500751355 /* UdarniVal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdarniVal.h; sourceTree = "<group>"; };
+		EC08061D1E47838500751355 /* UdarniVal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UdarniVal.m; sourceTree = "<group>"; };
+		EC08061F1E478B9A00751355 /* aura0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aura0.png; sourceTree = "<group>"; };
+		EC0806311E47C2A300751355 /* riba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba.png; sourceTree = "<group>"; };
+		EC0806331E47C64900751355 /* bublle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bublle.png; sourceTree = "<group>"; };
+		EC0806351E47CB0400751355 /* Riba.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Riba.h; sourceTree = "<group>"; };
+		EC0806361E47CB0400751355 /* Riba.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Riba.m; sourceTree = "<group>"; };
+		EC0AF5251E4A22C700550FAD /* Mjehuric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mjehuric.h; sourceTree = "<group>"; };
+		EC0AF5261E4A22C700550FAD /* Mjehuric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mjehuric.m; sourceTree = "<group>"; };
+		EC0AF5271E4A22C700550FAD /* IzvorMjehurica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IzvorMjehurica.h; sourceTree = "<group>"; };
+		EC0AF5281E4A22C700550FAD /* IzvorMjehurica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IzvorMjehurica.m; sourceTree = "<group>"; };
+		EC0AF52B1E4A22DE00550FAD /* Svjetlo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Svjetlo.h; sourceTree = "<group>"; };
+		EC0AF52C1E4A22DE00550FAD /* Svjetlo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Svjetlo.m; sourceTree = "<group>"; };
+		EC0AF5321E4A260800550FAD /* zrakaSvjetla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zrakaSvjetla.png; sourceTree = "<group>"; };
+		EC0AF5361E4A2B2700550FAD /* podmorje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje.png; sourceTree = "<group>"; };
 		EC14F9441E46803E00B8F3F1 /* Mjehurici3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mjehurici3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC14F9481E46803E00B8F3F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC14F94A1E46803E00B8F3F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,6 +67,10 @@
 		EC14F95A1E46803E00B8F3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC14F95D1E46803E00B8F3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC14F95F1E46803E00B8F3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC200DF91E49CD9700FD43CF /* riba1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba1.png; sourceTree = "<group>"; };
+		EC200DFA1E49CD9700FD43CF /* riba2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba2.png; sourceTree = "<group>"; };
+		EC200DFB1E49CD9700FD43CF /* riba3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba3.png; sourceTree = "<group>"; };
+		EC200DFF1E49DA6900FD43CF /* plop2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = plop2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +87,16 @@
 		EC14F93B1E46803E00B8F3F1 = {
 			isa = PBXGroup;
 			children = (
+				EC0AF5321E4A260800550FAD /* zrakaSvjetla.png */,
+				EC200DFF1E49DA6900FD43CF /* plop2.mp3 */,
+				EC200DF91E49CD9700FD43CF /* riba1.png */,
+				EC200DFA1E49CD9700FD43CF /* riba2.png */,
+				EC200DFB1E49CD9700FD43CF /* riba3.png */,
+				EC0806331E47C64900751355 /* bublle.png */,
+				EC08061F1E478B9A00751355 /* aura0.png */,
+				EC08061A1E47427A00751355 /* mjehuric.png */,
+				EC0806311E47C2A300751355 /* riba.png */,
+				EC0AF5361E4A2B2700550FAD /* podmorje.png */,
 				EC14F9461E46803E00B8F3F1 /* Mjehurici3 */,
 				EC14F9451E46803E00B8F3F1 /* Products */,
 			);
@@ -69,6 +117,18 @@
 				EC14F94B1E46803E00B8F3F1 /* AppDelegate.m */,
 				EC14F94D1E46803E00B8F3F1 /* GameScene.sks */,
 				EC14F94F1E46803E00B8F3F1 /* Actions.sks */,
+				EC0AF5251E4A22C700550FAD /* Mjehuric.h */,
+				EC0AF5261E4A22C700550FAD /* Mjehuric.m */,
+				EC0AF5271E4A22C700550FAD /* IzvorMjehurica.h */,
+				EC0AF5281E4A22C700550FAD /* IzvorMjehurica.m */,
+				EC0AF52B1E4A22DE00550FAD /* Svjetlo.h */,
+				EC0AF52C1E4A22DE00550FAD /* Svjetlo.m */,
+				EC0806171E47415300751355 /* Bubble.h */,
+				EC0806181E47415300751355 /* Bubble.m */,
+				EC0806351E47CB0400751355 /* Riba.h */,
+				EC0806361E47CB0400751355 /* Riba.m */,
+				EC08061C1E47838500751355 /* UdarniVal.h */,
+				EC08061D1E47838500751355 /* UdarniVal.m */,
 				EC14F9511E46803E00B8F3F1 /* GameScene.h */,
 				EC14F9521E46803E00B8F3F1 /* GameScene.m */,
 				EC14F9541E46803E00B8F3F1 /* GameViewController.h */,
@@ -150,10 +210,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC14F9591E46803E00B8F3F1 /* Main.storyboard in Resources */,
+				EC0AF5371E4A2B2700550FAD /* podmorje.png in Resources */,
+				EC0806321E47C2A300751355 /* riba.png in Resources */,
+				EC0806341E47C64900751355 /* bublle.png in Resources */,
+				EC0AF5331E4A260800550FAD /* zrakaSvjetla.png in Resources */,
 				EC14F94E1E46803E00B8F3F1 /* GameScene.sks in Resources */,
+				EC200E001E49DA6900FD43CF /* plop2.mp3 in Resources */,
 				EC14F95B1E46803E00B8F3F1 /* Assets.xcassets in Resources */,
 				EC14F95E1E46803E00B8F3F1 /* LaunchScreen.storyboard in Resources */,
+				EC08061B1E47427A00751355 /* mjehuric.png in Resources */,
 				EC14F9501E46803E00B8F3F1 /* Actions.sks in Resources */,
+				EC0806201E478B9A00751355 /* aura0.png in Resources */,
+				EC200DFE1E49CD9800FD43CF /* riba3.png in Resources */,
+				EC200DFC1E49CD9700FD43CF /* riba1.png in Resources */,
+				EC200DFD1E49CD9700FD43CF /* riba2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,8 +236,14 @@
 			files = (
 				EC14F9561E46803E00B8F3F1 /* GameViewController.m in Sources */,
 				EC14F94C1E46803E00B8F3F1 /* AppDelegate.m in Sources */,
+				EC0806371E47CB0400751355 /* Riba.m in Sources */,
+				EC0806191E47415300751355 /* Bubble.m in Sources */,
+				EC0AF5291E4A22C700550FAD /* Mjehuric.m in Sources */,
 				EC14F9531E46803E00B8F3F1 /* GameScene.m in Sources */,
+				EC08061E1E47838500751355 /* UdarniVal.m in Sources */,
+				EC0AF52A1E4A22C700550FAD /* IzvorMjehurica.m in Sources */,
 				EC14F9491E46803E00B8F3F1 /* main.m in Sources */,
+				EC0AF52D1E4A22DE00550FAD /* Svjetlo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +402,7 @@
 				EC14F9641E46803E00B8F3F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
