@@ -14,17 +14,19 @@
     self = [super init];
     if (self) {
         self.position = position;
-        self.size = CGSizeMake(50, 50);
+        self.size = CGSizeMake(70, 70);
         self.texture = [SKTexture textureWithImageNamed:@"riba"];
         SKAction *bjezi = [SKAction sequence:@[[SKAction moveTo:CGPointMake(-400, position.y) duration:3],
                                                  [SKAction removeFromParent]]];
         SKAction *mashi = [SKAction repeatActionForever:
                            [SKAction animateWithTextures:
                             [NSArray arrayWithObjects:
+                             [SKTexture textureWithImageNamed:@"riba0"],
                              [SKTexture textureWithImageNamed:@"riba1"],
                              [SKTexture textureWithImageNamed:@"riba2"],
                              [SKTexture textureWithImageNamed:@"riba3"],
-                             [SKTexture textureWithImageNamed:@"riba2"],nil] timePerFrame:0.1]];
+                             [SKTexture textureWithImageNamed:@"riba2"],
+                             [SKTexture textureWithImageNamed:@"riba1"],nil] timePerFrame:0.1]];
         
         [self runAction:[SKAction group:@[bjezi,mashi]]];
     }

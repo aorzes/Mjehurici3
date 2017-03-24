@@ -18,7 +18,7 @@
     self = [super init];
     if (self) {
         self.texture = [SKTexture textureWithImageNamed:@"mjehuric"];
-        float size = arc4random_uniform(8)+2;
+        float size = arc4random_uniform(10)+4;
         float veloc = arc4random_uniform(25)/8+1;
         self.size = CGSizeMake(size, size);
         self.position = position;

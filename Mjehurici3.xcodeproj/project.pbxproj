@@ -18,7 +18,8 @@
 		EC0AF52A1E4A22C700550FAD /* IzvorMjehurica.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0AF5281E4A22C700550FAD /* IzvorMjehurica.m */; };
 		EC0AF52D1E4A22DE00550FAD /* Svjetlo.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0AF52C1E4A22DE00550FAD /* Svjetlo.m */; };
 		EC0AF5331E4A260800550FAD /* zrakaSvjetla.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0AF5321E4A260800550FAD /* zrakaSvjetla.png */; };
-		EC0AF5371E4A2B2700550FAD /* podmorje.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0AF5361E4A2B2700550FAD /* podmorje.png */; };
+		EC0AF5371E4A2B2700550FAD /* podmorje10.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0AF5361E4A2B2700550FAD /* podmorje10.png */; };
+		EC0B3EA11E84469200769E25 /* ribaUmj.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0B3EA01E84469200769E25 /* ribaUmj.png */; };
 		EC14F9491E46803E00B8F3F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14F9481E46803E00B8F3F1 /* main.m */; };
 		EC14F94C1E46803E00B8F3F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14F94B1E46803E00B8F3F1 /* AppDelegate.m */; };
 		EC14F94E1E46803E00B8F3F1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC14F94D1E46803E00B8F3F1 /* GameScene.sks */; };
@@ -28,10 +29,36 @@
 		EC14F9591E46803E00B8F3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC14F9571E46803E00B8F3F1 /* Main.storyboard */; };
 		EC14F95B1E46803E00B8F3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC14F95A1E46803E00B8F3F1 /* Assets.xcassets */; };
 		EC14F95E1E46803E00B8F3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC14F95C1E46803E00B8F3F1 /* LaunchScreen.storyboard */; };
-		EC200DFC1E49CD9700FD43CF /* riba1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC200DF91E49CD9700FD43CF /* riba1.png */; };
-		EC200DFD1E49CD9700FD43CF /* riba2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC200DFA1E49CD9700FD43CF /* riba2.png */; };
-		EC200DFE1E49CD9800FD43CF /* riba3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC200DFB1E49CD9700FD43CF /* riba3.png */; };
 		EC200E001E49DA6900FD43CF /* plop2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC200DFF1E49DA6900FD43CF /* plop2.mp3 */; };
+		EC2784CA1E811F14004C7EEF /* RibaSama.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2784C91E811F14004C7EEF /* RibaSama.m */; };
+		EC2784CC1E8131C6004C7EEF /* podmorje1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2784CB1E8131C6004C7EEF /* podmorje1.png */; };
+		EC60C6361E7D1D6D00DC7BA2 /* mjehurici2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC60C6341E7D1D6D00DC7BA2 /* mjehurici2.png */; };
+		EC60C6371E7D1D6D00DC7BA2 /* mjehurici1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC60C6351E7D1D6D00DC7BA2 /* mjehurici1.png */; };
+		EC66776A1E7EA20C00DD7420 /* podmorje0.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6677691E7EA20C00DD7420 /* podmorje0.png */; };
+		EC6677771E7F17E700DD7420 /* riba11.png in Resources */ = {isa = PBXBuildFile; fileRef = EC66776B1E7F17E700DD7420 /* riba11.png */; };
+		EC6677781E7F17E700DD7420 /* riba10.png in Resources */ = {isa = PBXBuildFile; fileRef = EC66776C1E7F17E700DD7420 /* riba10.png */; };
+		EC6677791E7F17E700DD7420 /* riba9.png in Resources */ = {isa = PBXBuildFile; fileRef = EC66776D1E7F17E700DD7420 /* riba9.png */; };
+		EC66777A1E7F17E700DD7420 /* riba8.png in Resources */ = {isa = PBXBuildFile; fileRef = EC66776E1E7F17E700DD7420 /* riba8.png */; };
+		EC66777B1E7F17E700DD7420 /* riba7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC66776F1E7F17E700DD7420 /* riba7.png */; };
+		EC66777C1E7F17E700DD7420 /* riba6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6677701E7F17E700DD7420 /* riba6.png */; };
+		EC66777D1E7F17E700DD7420 /* riba5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6677711E7F17E700DD7420 /* riba5.png */; };
+		EC66777E1E7F17E700DD7420 /* riba4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6677721E7F17E700DD7420 /* riba4.png */; };
+		EC66777F1E7F17E700DD7420 /* riba3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6677731E7F17E700DD7420 /* riba3.png */; };
+		EC6677801E7F17E700DD7420 /* riba2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6677741E7F17E700DD7420 /* riba2.png */; };
+		EC6677811E7F17E700DD7420 /* riba1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6677751E7F17E700DD7420 /* riba1.png */; };
+		EC6677821E7F17E700DD7420 /* riba0.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6677761E7F17E700DD7420 /* riba0.png */; };
+		EC8B4DAB1E768A6F007FFB9F /* podmorje2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B4DA21E768A6F007FFB9F /* podmorje2.png */; };
+		EC8B4DAC1E768A6F007FFB9F /* podmorje3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B4DA31E768A6F007FFB9F /* podmorje3.png */; };
+		EC8B4DAD1E768A6F007FFB9F /* podmorje4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B4DA41E768A6F007FFB9F /* podmorje4.png */; };
+		EC8B4DAE1E768A6F007FFB9F /* podmorje5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B4DA51E768A6F007FFB9F /* podmorje5.png */; };
+		EC8B4DAF1E768A6F007FFB9F /* podmorje6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B4DA61E768A6F007FFB9F /* podmorje6.png */; };
+		EC8B4DB01E768A6F007FFB9F /* podmorje7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B4DA71E768A6F007FFB9F /* podmorje7.png */; };
+		EC8B4DB11E768A6F007FFB9F /* podmorje8.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B4DA81E768A6F007FFB9F /* podmorje8.png */; };
+		EC8B4DB21E768A6F007FFB9F /* podmorje9.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B4DA91E768A6F007FFB9F /* podmorje9.png */; };
+		ECA26DFC1E7C661F006F2F44 /* mjehurici.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA26DFB1E7C661F006F2F44 /* mjehurici.png */; };
+		ECA26DFF1E7C7277006F2F44 /* PrijelaznaScena.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA26DFE1E7C7277006F2F44 /* PrijelaznaScena.m */; };
+		ECA26E021E7C72A2006F2F44 /* BeginScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA26E011E7C72A2006F2F44 /* BeginScene.m */; };
+		ECDC5EDF1E7C7D850019CB52 /* BeginScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDC5EDE1E7C7D850019CB52 /* BeginScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +79,8 @@
 		EC0AF52B1E4A22DE00550FAD /* Svjetlo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Svjetlo.h; sourceTree = "<group>"; };
 		EC0AF52C1E4A22DE00550FAD /* Svjetlo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Svjetlo.m; sourceTree = "<group>"; };
 		EC0AF5321E4A260800550FAD /* zrakaSvjetla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zrakaSvjetla.png; sourceTree = "<group>"; };
-		EC0AF5361E4A2B2700550FAD /* podmorje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje.png; sourceTree = "<group>"; };
+		EC0AF5361E4A2B2700550FAD /* podmorje10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje10.png; sourceTree = "<group>"; };
+		EC0B3EA01E84469200769E25 /* ribaUmj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ribaUmj.png; sourceTree = "<group>"; };
 		EC14F9441E46803E00B8F3F1 /* Mjehurici3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mjehurici3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC14F9481E46803E00B8F3F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC14F94A1E46803E00B8F3F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,10 +95,39 @@
 		EC14F95A1E46803E00B8F3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC14F95D1E46803E00B8F3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC14F95F1E46803E00B8F3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC200DF91E49CD9700FD43CF /* riba1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba1.png; sourceTree = "<group>"; };
-		EC200DFA1E49CD9700FD43CF /* riba2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba2.png; sourceTree = "<group>"; };
-		EC200DFB1E49CD9700FD43CF /* riba3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba3.png; sourceTree = "<group>"; };
 		EC200DFF1E49DA6900FD43CF /* plop2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = plop2.mp3; sourceTree = "<group>"; };
+		EC2784C81E811F14004C7EEF /* RibaSama.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RibaSama.h; sourceTree = "<group>"; };
+		EC2784C91E811F14004C7EEF /* RibaSama.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RibaSama.m; sourceTree = "<group>"; };
+		EC2784CB1E8131C6004C7EEF /* podmorje1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje1.png; sourceTree = "<group>"; };
+		EC60C6341E7D1D6D00DC7BA2 /* mjehurici2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici2.png; sourceTree = "<group>"; };
+		EC60C6351E7D1D6D00DC7BA2 /* mjehurici1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici1.png; sourceTree = "<group>"; };
+		EC6677691E7EA20C00DD7420 /* podmorje0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje0.png; sourceTree = "<group>"; };
+		EC66776B1E7F17E700DD7420 /* riba11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba11.png; sourceTree = "<group>"; };
+		EC66776C1E7F17E700DD7420 /* riba10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba10.png; sourceTree = "<group>"; };
+		EC66776D1E7F17E700DD7420 /* riba9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba9.png; sourceTree = "<group>"; };
+		EC66776E1E7F17E700DD7420 /* riba8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba8.png; sourceTree = "<group>"; };
+		EC66776F1E7F17E700DD7420 /* riba7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba7.png; sourceTree = "<group>"; };
+		EC6677701E7F17E700DD7420 /* riba6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba6.png; sourceTree = "<group>"; };
+		EC6677711E7F17E700DD7420 /* riba5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba5.png; sourceTree = "<group>"; };
+		EC6677721E7F17E700DD7420 /* riba4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba4.png; sourceTree = "<group>"; };
+		EC6677731E7F17E700DD7420 /* riba3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba3.png; sourceTree = "<group>"; };
+		EC6677741E7F17E700DD7420 /* riba2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba2.png; sourceTree = "<group>"; };
+		EC6677751E7F17E700DD7420 /* riba1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba1.png; sourceTree = "<group>"; };
+		EC6677761E7F17E700DD7420 /* riba0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riba0.png; sourceTree = "<group>"; };
+		EC8B4DA21E768A6F007FFB9F /* podmorje2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje2.png; sourceTree = "<group>"; };
+		EC8B4DA31E768A6F007FFB9F /* podmorje3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje3.png; sourceTree = "<group>"; };
+		EC8B4DA41E768A6F007FFB9F /* podmorje4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje4.png; sourceTree = "<group>"; };
+		EC8B4DA51E768A6F007FFB9F /* podmorje5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje5.png; sourceTree = "<group>"; };
+		EC8B4DA61E768A6F007FFB9F /* podmorje6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje6.png; sourceTree = "<group>"; };
+		EC8B4DA71E768A6F007FFB9F /* podmorje7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje7.png; sourceTree = "<group>"; };
+		EC8B4DA81E768A6F007FFB9F /* podmorje8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje8.png; sourceTree = "<group>"; };
+		EC8B4DA91E768A6F007FFB9F /* podmorje9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podmorje9.png; sourceTree = "<group>"; };
+		ECA26DFB1E7C661F006F2F44 /* mjehurici.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici.png; sourceTree = "<group>"; };
+		ECA26DFD1E7C7277006F2F44 /* PrijelaznaScena.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrijelaznaScena.h; sourceTree = "<group>"; };
+		ECA26DFE1E7C7277006F2F44 /* PrijelaznaScena.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrijelaznaScena.m; sourceTree = "<group>"; };
+		ECA26E001E7C72A2006F2F44 /* BeginScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeginScene.h; sourceTree = "<group>"; };
+		ECA26E011E7C72A2006F2F44 /* BeginScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeginScene.m; sourceTree = "<group>"; };
+		ECDC5EDE1E7C7D850019CB52 /* BeginScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BeginScene.sks; path = ../BeginScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,16 +144,39 @@
 		EC14F93B1E46803E00B8F3F1 = {
 			isa = PBXGroup;
 			children = (
+				EC66776B1E7F17E700DD7420 /* riba11.png */,
+				EC66776C1E7F17E700DD7420 /* riba10.png */,
+				EC66776D1E7F17E700DD7420 /* riba9.png */,
+				EC66776E1E7F17E700DD7420 /* riba8.png */,
+				EC66776F1E7F17E700DD7420 /* riba7.png */,
+				EC6677701E7F17E700DD7420 /* riba6.png */,
+				EC6677711E7F17E700DD7420 /* riba5.png */,
+				EC6677721E7F17E700DD7420 /* riba4.png */,
+				EC6677731E7F17E700DD7420 /* riba3.png */,
+				EC6677741E7F17E700DD7420 /* riba2.png */,
+				EC6677751E7F17E700DD7420 /* riba1.png */,
+				EC6677761E7F17E700DD7420 /* riba0.png */,
 				EC0AF5321E4A260800550FAD /* zrakaSvjetla.png */,
 				EC200DFF1E49DA6900FD43CF /* plop2.mp3 */,
-				EC200DF91E49CD9700FD43CF /* riba1.png */,
-				EC200DFA1E49CD9700FD43CF /* riba2.png */,
-				EC200DFB1E49CD9700FD43CF /* riba3.png */,
 				EC0806331E47C64900751355 /* bublle.png */,
 				EC08061F1E478B9A00751355 /* aura0.png */,
 				EC08061A1E47427A00751355 /* mjehuric.png */,
 				EC0806311E47C2A300751355 /* riba.png */,
-				EC0AF5361E4A2B2700550FAD /* podmorje.png */,
+				EC0AF5361E4A2B2700550FAD /* podmorje10.png */,
+				EC6677691E7EA20C00DD7420 /* podmorje0.png */,
+				EC2784CB1E8131C6004C7EEF /* podmorje1.png */,
+				EC8B4DA21E768A6F007FFB9F /* podmorje2.png */,
+				EC8B4DA31E768A6F007FFB9F /* podmorje3.png */,
+				EC8B4DA41E768A6F007FFB9F /* podmorje4.png */,
+				EC8B4DA51E768A6F007FFB9F /* podmorje5.png */,
+				EC8B4DA61E768A6F007FFB9F /* podmorje6.png */,
+				EC8B4DA71E768A6F007FFB9F /* podmorje7.png */,
+				EC8B4DA81E768A6F007FFB9F /* podmorje8.png */,
+				EC8B4DA91E768A6F007FFB9F /* podmorje9.png */,
+				ECA26DFB1E7C661F006F2F44 /* mjehurici.png */,
+				EC60C6341E7D1D6D00DC7BA2 /* mjehurici2.png */,
+				EC60C6351E7D1D6D00DC7BA2 /* mjehurici1.png */,
+				EC0B3EA01E84469200769E25 /* ribaUmj.png */,
 				EC14F9461E46803E00B8F3F1 /* Mjehurici3 */,
 				EC14F9451E46803E00B8F3F1 /* Products */,
 			);
@@ -115,6 +195,7 @@
 			children = (
 				EC14F94A1E46803E00B8F3F1 /* AppDelegate.h */,
 				EC14F94B1E46803E00B8F3F1 /* AppDelegate.m */,
+				ECDC5EDE1E7C7D850019CB52 /* BeginScene.sks */,
 				EC14F94D1E46803E00B8F3F1 /* GameScene.sks */,
 				EC14F94F1E46803E00B8F3F1 /* Actions.sks */,
 				EC0AF5251E4A22C700550FAD /* Mjehuric.h */,
@@ -127,10 +208,16 @@
 				EC0806181E47415300751355 /* Bubble.m */,
 				EC0806351E47CB0400751355 /* Riba.h */,
 				EC0806361E47CB0400751355 /* Riba.m */,
+				EC2784C81E811F14004C7EEF /* RibaSama.h */,
+				EC2784C91E811F14004C7EEF /* RibaSama.m */,
 				EC08061C1E47838500751355 /* UdarniVal.h */,
 				EC08061D1E47838500751355 /* UdarniVal.m */,
 				EC14F9511E46803E00B8F3F1 /* GameScene.h */,
 				EC14F9521E46803E00B8F3F1 /* GameScene.m */,
+				ECA26DFD1E7C7277006F2F44 /* PrijelaznaScena.h */,
+				ECA26DFE1E7C7277006F2F44 /* PrijelaznaScena.m */,
+				ECA26E001E7C72A2006F2F44 /* BeginScene.h */,
+				ECA26E011E7C72A2006F2F44 /* BeginScene.m */,
 				EC14F9541E46803E00B8F3F1 /* GameViewController.h */,
 				EC14F9551E46803E00B8F3F1 /* GameViewController.m */,
 				EC14F9571E46803E00B8F3F1 /* Main.storyboard */,
@@ -209,21 +296,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC66777A1E7F17E700DD7420 /* riba8.png in Resources */,
 				EC14F9591E46803E00B8F3F1 /* Main.storyboard in Resources */,
-				EC0AF5371E4A2B2700550FAD /* podmorje.png in Resources */,
+				EC66777E1E7F17E700DD7420 /* riba4.png in Resources */,
+				EC8B4DB21E768A6F007FFB9F /* podmorje9.png in Resources */,
+				EC8B4DAF1E768A6F007FFB9F /* podmorje6.png in Resources */,
+				EC6677781E7F17E700DD7420 /* riba10.png in Resources */,
+				EC0AF5371E4A2B2700550FAD /* podmorje10.png in Resources */,
 				EC0806321E47C2A300751355 /* riba.png in Resources */,
+				EC60C6361E7D1D6D00DC7BA2 /* mjehurici2.png in Resources */,
+				EC8B4DB01E768A6F007FFB9F /* podmorje7.png in Resources */,
+				EC6677791E7F17E700DD7420 /* riba9.png in Resources */,
+				EC6677801E7F17E700DD7420 /* riba2.png in Resources */,
 				EC0806341E47C64900751355 /* bublle.png in Resources */,
 				EC0AF5331E4A260800550FAD /* zrakaSvjetla.png in Resources */,
 				EC14F94E1E46803E00B8F3F1 /* GameScene.sks in Resources */,
+				EC66777F1E7F17E700DD7420 /* riba3.png in Resources */,
+				EC8B4DAC1E768A6F007FFB9F /* podmorje3.png in Resources */,
 				EC200E001E49DA6900FD43CF /* plop2.mp3 in Resources */,
+				EC0B3EA11E84469200769E25 /* ribaUmj.png in Resources */,
+				EC66777C1E7F17E700DD7420 /* riba6.png in Resources */,
+				EC8B4DAE1E768A6F007FFB9F /* podmorje5.png in Resources */,
+				EC66777D1E7F17E700DD7420 /* riba5.png in Resources */,
+				EC6677811E7F17E700DD7420 /* riba1.png in Resources */,
 				EC14F95B1E46803E00B8F3F1 /* Assets.xcassets in Resources */,
+				ECA26DFC1E7C661F006F2F44 /* mjehurici.png in Resources */,
 				EC14F95E1E46803E00B8F3F1 /* LaunchScreen.storyboard in Resources */,
+				EC6677771E7F17E700DD7420 /* riba11.png in Resources */,
 				EC08061B1E47427A00751355 /* mjehuric.png in Resources */,
+				EC6677821E7F17E700DD7420 /* riba0.png in Resources */,
+				EC8B4DAD1E768A6F007FFB9F /* podmorje4.png in Resources */,
 				EC14F9501E46803E00B8F3F1 /* Actions.sks in Resources */,
+				EC8B4DAB1E768A6F007FFB9F /* podmorje2.png in Resources */,
 				EC0806201E478B9A00751355 /* aura0.png in Resources */,
-				EC200DFE1E49CD9800FD43CF /* riba3.png in Resources */,
-				EC200DFC1E49CD9700FD43CF /* riba1.png in Resources */,
-				EC200DFD1E49CD9700FD43CF /* riba2.png in Resources */,
+				EC60C6371E7D1D6D00DC7BA2 /* mjehurici1.png in Resources */,
+				EC66776A1E7EA20C00DD7420 /* podmorje0.png in Resources */,
+				EC8B4DB11E768A6F007FFB9F /* podmorje8.png in Resources */,
+				EC2784CC1E8131C6004C7EEF /* podmorje1.png in Resources */,
+				EC66777B1E7F17E700DD7420 /* riba7.png in Resources */,
+				ECDC5EDF1E7C7D850019CB52 /* BeginScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,8 +345,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA26DFF1E7C7277006F2F44 /* PrijelaznaScena.m in Sources */,
 				EC14F9561E46803E00B8F3F1 /* GameViewController.m in Sources */,
+				ECA26E021E7C72A2006F2F44 /* BeginScene.m in Sources */,
 				EC14F94C1E46803E00B8F3F1 /* AppDelegate.m in Sources */,
+				EC2784CA1E811F14004C7EEF /* RibaSama.m in Sources */,
 				EC0806371E47CB0400751355 /* Riba.m in Sources */,
 				EC0806191E47415300751355 /* Bubble.m in Sources */,
 				EC0AF5291E4A22C700550FAD /* Mjehuric.m in Sources */,

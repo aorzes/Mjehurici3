@@ -21,7 +21,7 @@
         self.position = position;
         self.size = CGSizeMake(size, size);
         self.zPosition = 2;
-        self.texture = [SKTexture textureWithImageNamed:@"bublle"];
+        self.texture = [SKTexture textureWithImageNamed:@"ribaUmj"];
         self.physicsBody = [SKPhysicsBody bodyWithCircleOfRadius:size/2];
         self.physicsBody.categoryBitMask = maliCategory;
         self.physicsBody.contactTestBitMask = glavniCategory;
@@ -36,11 +36,7 @@
         SKAction *goreDolje = [SKAction moveBy:gore duration:time];
         SKAction *doljeGore = [SKAction moveBy:dolje duration:time];
         [self runAction:[SKAction repeatActionForever:[SKAction sequence:@[goreDolje,doljeGore]]]];
-        SKSpriteNode *ribica = [[SKSpriteNode alloc]initWithTexture:[SKTexture textureWithImageNamed:@"riba"]];
-        ribica.size = CGSizeMake(self.size.width*0.8, self.size.height*0.8);
-        ribica.zPosition = -1;
-        [self addChild:ribica];
-        
+
     }
     return self;
 }
